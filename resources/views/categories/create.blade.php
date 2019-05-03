@@ -15,6 +15,7 @@
                                 <input class="form-control" name="name" type="text"/>
                             </div>
                             <button type="submit">Create category</button>
+                            <a href="/categories">Cancel</a>
                         </form>
                     </div>
                 </div>

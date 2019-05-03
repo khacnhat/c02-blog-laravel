@@ -15,6 +15,7 @@
                                 <input readonly class="form-control" name="name" type="text" value="{{$category->name}}"/>
                             </div>
                             <button type="submit">Delete category</button>
+                            <a href="/categories">Cancel</a>
                         </form>
                     </div>
                 </div>

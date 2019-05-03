@@ -63,3 +63,10 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+### Vagrant template
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.logs
+

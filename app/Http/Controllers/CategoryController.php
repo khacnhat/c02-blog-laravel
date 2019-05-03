@@ -44,7 +44,7 @@ class CategoryController extends Controller
             $category->name = $request->name;
             $category->save();
 
-            return view('categories/edit', compact('category'));
+            return redirect()->route('categories.index');
         } else {
             abort(404);
         }
